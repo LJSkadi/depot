@@ -3,11 +3,21 @@
 one:
   title: MyString
   description: MyText
-  image_url: MyString
-  price: MyString
+  image_url: lorem.jpg
+  price: 1
 
 two:
   title: MyString
   description: MyText
-  image_url: MyString
-  price: MyString
+  image_url: lorem.jpg
+  price: 1
+
+ruby:
+  title: Programming Ruby 1.9
+  description:
+    Ruby is the fastest growing and most exciting dynamic
+    language out there.  If you need to get working programs
+    delivered fast, you should add Ruby to your toolbox.
+  price: 49.50
+  image_url: ruby.jpg         #This referenced file needs to exist for the test to succeed.
+                              #It doesn't matter what they are as long as they are in app/assets/images, when the tests run
